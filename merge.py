@@ -13,4 +13,4 @@ def merge(firstList, secondList):
             res.append(secondList[j])
             j+=1
     res = res + firstList[i:] + secondList[j:]
-    print(res)
+    return res
