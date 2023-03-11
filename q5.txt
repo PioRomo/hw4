@@ -1,0 +1,5 @@
+1) No it does not. 
+2) Yes, it does. 
+3) The A variable does not change because it is not changed inside the function. Though it is modified, these changes aren't actually saved, but 
+   made to a reference of the someVal variable. So it's as if the function call is ignored. The B variable changes however, because we are directly 
+   accessing the someVal variable, and not a reference. 
