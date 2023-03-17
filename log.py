@@ -1,7 +1,7 @@
-from datetime import datetime 
+import time
 
 def timestamp(func): 
     def inner(): 
-        print(datetime.now())
+        print(time.ctime())
         func()
     return inner
