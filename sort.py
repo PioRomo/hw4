@@ -5,5 +5,5 @@ def sort_dictionary(dict):
         newnewDict += "('" + name +"', "+ str(dict[name][0]) + "), "
     newnewDict = newnewDict.rstrip(', ')
     newnewDict += "]"
-    return newnewDict
-    
+    res = eval(newnewDict)
+    return res
