@@ -8,12 +8,12 @@ def double(func):
     return inner
 
 
-def greet():
+""""def greet():
     #print("Hello World")
     from test import greet
 
 #sets double as the decorator and greet as the inner
 decoratedFunc = double(greet)
 decoratedFunc()
-
+"""
     
